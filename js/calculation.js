@@ -7,7 +7,7 @@ document.getElementById("card-1").addEventListener("click", function () {
   const Product1Price = getElementPriceById("card1-price");
   total = total + Product1Price;
   setInnerTextById("total-price", total.toFixed(2));
-  setInnerTextById("final-cost", total.toFixed(2));
+  
 
   if (Product1Price > 0 && total > 200) {
     const purchase = document.getElementById("make-purchase");
@@ -47,7 +47,7 @@ document.getElementById("card-2").addEventListener("click", function () {
   const Product2Price = getElementPriceById("card2-price");
   total = total + Product2Price;
   setInnerTextById("total-price", total.toFixed(2));
-  setInnerTextById("final-cost", total.toFixed(2));
+  
 
   if (Product2Price > 0 && total > 200) {
     const purchase = document.getElementById("make-purchase");
@@ -87,7 +87,7 @@ document.getElementById("card-3").addEventListener("click", function () {
   const Product3Price = getElementPriceById("card3-price");
   total = total + Product3Price;
   setInnerTextById("total-price", total.toFixed(2));
-  setInnerTextById("final-cost", total.toFixed(2));
+  
 
   if (Product3Price > 0 && total > 200) {
     const purchase = document.getElementById("make-purchase");
@@ -126,7 +126,7 @@ document.getElementById("card-4").addEventListener("click", function () {
   const Product4Price = getElementPriceById("card4-price");
   total = total + Product4Price;
   setInnerTextById("total-price", total.toFixed(2));
-  setInnerTextById("final-cost", total.toFixed(2));
+  
 
   if (Product4Price > 0 && total > 200) {
     const purchase = document.getElementById("make-purchase");
@@ -165,7 +165,7 @@ document.getElementById("card-5").addEventListener("click", function () {
   const Product5Price = getElementPriceById("card5-price");
   total = total + Product5Price;
   setInnerTextById("total-price", total.toFixed(2));
-  setInnerTextById("final-cost", total.toFixed(2));
+  
   if (Product5Price > 0 && total > 200) {
     const purchase = document.getElementById("make-purchase");
     const removeList = purchase.classList.remove("btn-disabled");
@@ -203,7 +203,7 @@ document.getElementById("card-6").addEventListener("click", function () {
   const Product6Price = getElementPriceById("card6-price");
   total = total + Product6Price;
   setInnerTextById("total-price", total.toFixed(2));
-  setInnerTextById("final-cost", total.toFixed(2));
+  
 
   if (Product6Price > 0 && total > 200) {
     const purchase = document.getElementById("make-purchase");
