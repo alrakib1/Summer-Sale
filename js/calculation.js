@@ -241,6 +241,7 @@ document.getElementById("apply-button").addEventListener("click", function () {
   inputText.value = "";
   if (inputTextString !== "SELL200") {
     alert("Please write correct coupon code: SELL200");
+    return;
   }
   const discount = (total * 20) / 100;
   const discountF = discount.toFixed(2);
