@@ -28,3 +28,36 @@ function setInnerTextById(elementId,value){
     const text = document.getElementById(elementId);
     text.innerText = value;
 }
+
+   // button enable functionfunction
+   
+ function buttonEnable(ProductPrice,total){
+if (ProductPrice > 0 && total > 200) {
+    const purchase = document.getElementById("make-purchase");
+    const removeList = purchase.classList.remove("btn-disabled");
+    const purchaseNew = purchase.classList.add(
+      "btn-primary",
+      "bg-[#E527B2]",
+      "text-white",
+      "border-none"
+    );
+    const discountButton = document.getElementById("apply-button");
+    const remove = discountButton.classList.remove("btn-disabled");
+    const add = discountButton.classList.add(
+      "btn-primary",
+      "bg-[#E527B2]",
+      "text-white",
+      "border-none"
+    );
+  }
+  if (ProductPrice > 0) {
+    const purchase = document.getElementById("make-purchase");
+    const removeList = purchase.classList.remove("btn-disabled");
+    const purchaseNew = purchase.classList.add(
+      "btn-primary",
+      "bg-[#E527B2]",
+      "text-white",
+      "border-none"
+    );
+  }
+      }
